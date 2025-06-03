@@ -8,12 +8,12 @@ import WigglesImage from '../images/WigglesImage.png';
 const Projects = () => {
   return (
     <div>
-      <h1 className='projectHeading'>My <b>Projects</b></h1>
+      <h1 className='projectHeading'>Mes <b>Projets</b></h1>
       <div className='project'>
-        <ProjectBox projectPhoto={WigglesImage} projectName="Wiggles" />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="Newsletter" />
-        <ProjectBox projectPhoto={RogfreeImage} projectName="RogFree" />
-        <ProjectBox projectPhoto={TindogImage} projectName="Tindog" />
+        <ProjectBox projectPhoto={WigglesImage} projectName="Resto_chic" />
+        <ProjectBox projectPhoto={NewsletterImage} projectName="app_boutique" />
+        <ProjectBox projectPhoto={RogfreeImage} projectName="Power_fit" />
+        <ProjectBox projectPhoto={TindogImage} projectName="elegance_beaute" />
       </div>
 
     </div>

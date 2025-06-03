@@ -12,8 +12,8 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>Bonjour!</h1>
+          <h1>je suis <b>MOUKAM HERMAN</b></h1>
           <Typed/>   
         </div>
 
@@ -27,16 +27,16 @@ const Home = () => {
 
       <div className='AboutPage'>
         <div className='AboutText'>
-          <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
+          <h1 className='AboutTextHeading'>Présentation <b>rapide</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+            J'aime le processus de transformer une idée brute en site web ou produit 
+qui impacte les vies. 
+Je souhaite faire des projets qui me challengent en tant que développeur et dont je peux 
+être fier.<br /><br />
+            Je suis fluide en <b>javascript</b> et je connais un peu de <b>Python</b>. Je travaille actuellement sur quelques 
+projets avec la <b>MERN</b> stack.<br />
+Je prévois d'apprendre <b>Next.js</b>, <b>Three.js</b> et <b>n8n</b> prochainement. <br /><br />
+            J'adore le <b>café</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>
         <Tilt>

@@ -1,7 +1,8 @@
 import React from 'react'; 
 import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
+import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaAws} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
+// import { FaAws } from "react-icons/fa";
 import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
 
 const Skills = ({skill}) => {
@@ -17,7 +18,8 @@ const Skills = ({skill}) => {
         Github : <FaGithub/>,
         Npm : <FaNpm/>,
         Figma : <FaFigma/>,
-        Bootstrap: <FaBootstrap/>,
+        AWS: <FaAws/>,
+        n8n: <FaPython/>,
         Vercel : <SiVercel/>
     }
     
