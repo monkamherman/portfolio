@@ -13,7 +13,7 @@
     "react-parallax-tilt": "^1.7.151",
     "react-pdf": "^9.2.1",
     "react-router-dom": "^6.13.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "react-spinners": "^0.13.8",
     "svgo": "^2.8.0",
     "typewriter-effect": "^2.20.1",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
